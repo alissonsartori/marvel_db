@@ -154,4 +154,34 @@ CREATE TABLE Producoes_Marvel (
     Classificacao VARCHAR(10),
     Conexao_MCU BOOLEAN,
     Sinopse TEXT
-);
+);```
+
+### 2. Execute o Script de Inserção
+Carregue e execute o conteúdo do arquivo marvel_sql_inserts.sql para popular a tabela Producoes_Marvel com todos os registros listados neste repositório.
+
+####🤝 Contribuições
+Contribuições são sempre bem-vindas! Se você encontrar algum erro, informação desatualizada ou tiver sugestões para novas produções, siga os passos:
+
+bash
+Copiar
+Editar
+# Faça um fork do projeto
+# Crie uma branch para a sua alteração
+git checkout -b feature/NovaProducao
+
+# Faça suas alterações e commite
+git commit -m "Adiciona NovaProducao"
+
+# Envie para o seu repositório
+git push origin feature/NovaProducao
+
+# Abra um Pull Request
+📄 Licença
+Este projeto está licenciado sob a licença MIT.
+Consulte o arquivo LICENSE para mais detalhes.
+
+javascript
+Copiar
+Editar
+
+Se quiser, posso gerar esse conteúdo como um arquivo `.md` pronto para download. Deseja que eu faça 
