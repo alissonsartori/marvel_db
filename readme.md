@@ -142,7 +142,7 @@ A base de dados inclui títulos organizados da seguinte forma:
 
 Execute o seguinte comando no seu banco de dados (MySQL, PostgreSQL, SQL Server, etc.):
 
-```sql
+``` sql
 CREATE TABLE Producoes_Marvel (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     Titulo VARCHAR(255) NOT NULL,
@@ -154,17 +154,21 @@ CREATE TABLE Producoes_Marvel (
     Classificacao VARCHAR(10),
     Conexao_MCU BOOLEAN,
     Sinopse TEXT
-);```
+);
+```
 
 ### 2. Execute o Script de Inserção
-Carregue e execute o conteúdo do arquivo marvel_sql_inserts.sql para popular a tabela Producoes_Marvel com todos os registros listados neste repositório.
 
-####🤝 Contribuições
-Contribuições são sempre bem-vindas! Se você encontrar algum erro, informação desatualizada ou tiver sugestões para novas produções, siga os passos:
+Carregue e execute o conteúdo do arquivo `marvel_sql_inserts.sql` para popular a tabela `Producoes_Marvel` com todos os registros listados neste repositório.
 
-bash
-Copiar
-Editar
+---
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas!  
+Se você encontrar algum erro, informação desatualizada ou tiver sugestões para novas produções, siga os passos:
+
+```bash
 # Faça um fork do projeto
 # Crie uma branch para a sua alteração
 git checkout -b feature/NovaProducao
@@ -176,12 +180,4 @@ git commit -m "Adiciona NovaProducao"
 git push origin feature/NovaProducao
 
 # Abra um Pull Request
-📄 Licença
-Este projeto está licenciado sob a licença MIT.
-Consulte o arquivo LICENSE para mais detalhes.
 
-javascript
-Copiar
-Editar
-
-Se quiser, posso gerar esse conteúdo como um arquivo `.md` pronto para download. Deseja que eu faça 
