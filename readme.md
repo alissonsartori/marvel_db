@@ -150,10 +150,11 @@ CREATE TABLE Producoes_Marvel (
     Ano INT,
     Estudio VARCHAR(100),
     Diretor_Criador VARCHAR(255),
-    Duracao_Episodios VARCHAR(20),
     Classificacao VARCHAR(10),
     Conexao_MCU BOOLEAN,
-    Sinopse TEXT
+    Sinopse TEXT,
+    Duracao_Minutos INT,
+    Qtd_Episodios INT
 );
 ```
 
